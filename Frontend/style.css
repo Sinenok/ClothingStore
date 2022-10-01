@@ -64,18 +64,18 @@ body{
     text-decoration: underline;
 }
 
-.table_name_1{
+.table_best_offers{
     padding: 70px 0 50px 0;
 }
 
-.table_name_1_header{
+.table_best_offers_header{
     display: inline-block;
     font-weight: 600;
     font-size: 22px;
     margin: 0 1020px 0 60px;
 }
 
-.table_name_1 a{
+.table_best_offers a{
     display: inline-block;
     font-size: 13px;
     color: #333;
@@ -83,7 +83,7 @@ body{
     margin: 0 0 0 15px;
 }
 
-.table_name_1 a:hover{
+.table_best_offers a:hover{
     color: #1C1C1C;
     opacity: 1;
     text-decoration: underline ;
