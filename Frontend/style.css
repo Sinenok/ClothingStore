@@ -1,0 +1,136 @@
+/* Обнуление css стилей на странице  */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+
+/* Дальнейший код */
+.header{
+    background-color: #fff;
+    padding: 0 0 15px 0;
+
+}
+
+.logo{
+    margin: 0 0 0 60px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e8e8e8;
+}
+
+.city{
+    display: inline-block;
+    margin: 20px 0 0 60px;
+    color: #333;
+}
+
+.city:hover{
+    text-decoration: underline;
+}
+
+.table_name_1{
+    padding: 70px 0 50px 0;
+}
+
+.table_name_1_header{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0 1020px 0 60px;
+}
+
+.table_name_1 a{
+    display: inline-block;
+    font-size: 13px;
+    color: #333;
+    opacity: 0.8;
+    margin: 0 0 0 15px;
+}
+
+.table_name_1 a:hover{
+    color: #1C1C1C;
+    opacity: 1;
+    text-decoration: underline ;
+}
+
+table{
+    display: block;
+    border-collapse: collapse;
+    background-color: #fff;
+    max-width: 1392px;
+    margin: 0 auto;
+}
+
+td{
+    border: 2px solid #D3D3D3;
+    padding: 15px;
+}
+
+td img{
+    display: block;
+    width: 200px;
+    margin: 0 auto 15px auto;
+}
+
+.tabel_1_text{
+    line-height: 25px;
+}
+
+
+.price{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.art{
+    opacity: 0.5;
+    font-size: 13px;
+}
+
+.table_name_2{
+    padding: 70px 0 50px 0;
+}
+
+.table_name_2_header{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 0 0 0 60px;
+}
