@@ -108,7 +108,7 @@ td img{
     margin: 0 auto 15px auto;
 }
 
-.tabel_1_text{
+.table-clothes_text{
     line-height: 25px;
 }
 
@@ -124,11 +124,11 @@ td img{
     font-size: 13px;
 }
 
-.table_name_2{
+.table-specially{
     padding: 70px 0 50px 0;
 }
 
-.table_name_2_header{
+.table-specially_header{
     display: inline-block;
     font-weight: 600;
     font-size: 22px;
