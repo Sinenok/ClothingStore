@@ -60,6 +60,26 @@ body{
     color: #333;
 }
 
+.counter{
+    display: inline-block;
+    margin: 0 0 0 1100px;
+}
+
+.basket{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.counter_value{
+    width: 30px;
+    margin: 15px 0 0 0;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
 .city:hover{
     text-decoration: underline;
 }
@@ -133,4 +153,19 @@ td img{
     font-weight: 600;
     font-size: 22px;
     margin: 0 0 0 60px;
+}
+
+.table-clothes_btn-plus{
+    display: inline-block;
+    margin: 0 0 0 83px;
+}
+.counter_btn{
+    border: 1px solid gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
 }
