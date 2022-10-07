@@ -62,30 +62,22 @@ body{
 
 .counter{
     display: inline-block;
-    /* border: 1px solid black; */
     margin: 0 0 0 1100px;
-    /* width: 55px; */
 }
 
 .basket{
     display: inline-block;
     width: 30px;
     height: 30px;
-    /* border: 1px solid black;s */
-    /* margin: 0 0 0 -500px; */
 }
 
 .counter_value{
     width: 30px;
-    /* border: 1px solid black; */
     margin: 15px 0 0 0;
     background-color: #fff;
     font-size: 15px;
     font-weight: 600;
     color: black;
-    /* text-shadow: 1px 1px 1px gray; */
-
-    /* display: inline; */
 }
 
 .city:hover{
@@ -163,16 +155,12 @@ td img{
     margin: 0 0 0 60px;
 }
 
-/* Кнопка + */
 .table-clothes_btn-plus{
     display: inline-block;
-    /* border: 1px solid black; */
     margin: 0 0 0 83px;
 }
 .counter_btn{
-    /* display: inline-block; */
     border: 1px solid gray;
-    /* margin: 0 0 0 50px; */
     width: 30px;
     height: 30px;
     border-radius: 50%;
