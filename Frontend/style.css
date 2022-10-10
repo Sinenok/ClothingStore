@@ -157,8 +157,14 @@ td img{
 
 .table-clothes_btn-plus{
     display: inline-block;
-    margin: 0 0 0 83px;
+    /* margin: 0 0 0 83px; */
 }
+
+.table-clothes_btn-minus{
+    display: inline-block;
+    margin: 0 0 0 50px;
+}
+
 .counter_btn{
     border: 1px solid gray;
     width: 30px;
