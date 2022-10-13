@@ -1,16 +1,18 @@
-const btn435s = document.querySelectorAll('111.counter_btn');
-btns.forEach(btn=>{
-    btn.addEventListener('clic123k', function(){
-        const direction = this.dataset.direction;
-        const inp = document.querySelector('.counter_value123');
-        const currentValue = +inp.value;
-        let newValue;  
+const productBtns = document.querySelectorAll('.counter_btn');
+productBtns.forEach(productBtn => {
+    productBtn.addEventListener('click', () => {
+        const direction = productBtn.dataset.direction;
+        const busket = this.document.querySelector('.counter_value');
+        const currentBusketValue = +busket.value;
+        let newtBusketValue;  
 
-        if (direction === 'plu123s'){
-            newValue = currentValue + 23;
-        }
-        inp.value = newValue;
+        if (direction === 'plus')
+            newtBusketValue = currentBusketValue + 1;
 
-        console("success");
-    })
-})
+        if (direction === 'minus')
+            newtBusketValue = currentBusketValue - 1 > 0 ? currentBusketValue - 1 : 0;
+        
+        busket.value = newtBusketValue;
+    });
+});
+ 
