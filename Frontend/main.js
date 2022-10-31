@@ -67,50 +67,59 @@ function setTableElements(arrTags){
     let divBtnPlus
     arrTags.forEach(tag => {
         indexNumber++
+
         if (indexNumber === 1){
             tableRowe.append(tag)    ///исправил с tableRow в let
             tableColumn = tag
         }
-        else if ((indexNumber === 2) || (indexNumber === 3)){
+        
+        if (indexNumber === 2)
             tableColumn.append(tag)
-            if (indexNumber === 3){
-                tag.className = 'table-clothes_text'
-                divBlockText = tag
-            }
+
+        if (indexNumber === 3){
+            tableColumn.append(tag)
+            tag.className = 'table-clothes_text'
+            divBlockText = tag
         }
-        else if (indexNumber > 3){
-            if ((indexNumber != 6) && (indexNumber != 9)){
-                divBlockText.append(tag)
-                if (indexNumber === 4){
-                    tag.className = 'price'
-                }
-                else if (indexNumber === 5){
-                    tag.className = 'table-clothes_btn-minus'
-                    divBtnMinus = tag
-                }
-                else if (indexNumber === 7){
-                    tag.className = 'table-clothes_btn-plus'
-                    divBtnPlus = tag
-                }
-                else if (indexNumber === 10){
-                    tag.className = 'art'
-                }
-                else if (indexNumber === 12){
-                    tag.className = 'description'
-                }
-            }
-            else{
-                tag.className = 'counter_btn'
-                if (indexNumber === 6){
-                    divBtnMinus.append(tag)
-                    tag.dataset.direction = 'minus'
-                }
-                else{
-                    divBtnPlus.append(tag)
-                    tag.dataset.direction = 'plus'
-                }
-            }
+
+        if (indexNumber === 4){
+            divBlockText.append(tag)
+            tag.className = 'price'
         }
+            
+        if (indexNumber === 5){
+            divBlockText.append(tag)
+            tag.className = 'table-clothes_btn-minus'
+            divBtnMinus = tag
+        }
+
+        if (indexNumber === 6){
+            tag.className = 'counter_btn'
+            divBtnMinus.append(tag)
+            tag.dataset.direction = 'minus'
+        }
+        
+        if (indexNumber === 7){
+            divBlockText.append(tag)
+            tag.className = 'table-clothes_btn-plus'
+            divBtnPlus = tag
+        }
+        
+        if (indexNumber === 9){
+            tag.className = 'counter_btn'
+            divBtnPlus.append(tag)
+            tag.dataset.direction = 'plus'
+        } 
+        
+        if (indexNumber === 10){
+            divBlockText.append(tag)
+            tag.className = 'art'
+        }
+        
+        if (indexNumber === 12){
+            divBlockText.append(tag)
+            tag.className = 'description'
+        }  
     })
     return tableColumn
 }
